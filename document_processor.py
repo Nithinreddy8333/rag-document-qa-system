@@ -1,8 +1,9 @@
-undefinedimport io
+import io
 from typing import List, Dict, Any
 
+
 class DocumentProcessor:
-    """Handles document loading and chunking."""
+    """Handles document loading and chunking for PDF, DOCX, and TXT files."""
 
     def process_file(self, uploaded_file, chunk_size=500, chunk_overlap=50):
         """Process an uploaded file and return chunks with metadata."""
@@ -27,7 +28,7 @@ class DocumentProcessor:
         try:
             import PyPDF2
             reader = PyPDF2.PdfReader(io.BytesIO(uploaded_file.read()))
-            return "".join(p.extract_text() + "\n" for p in reader.pages)
+            return "".join(page.extract_text() + "\n" for page in reader.pages)
         except ImportError:
             raise ImportError("Install PyPDF2: pip install PyPDF2")
 
