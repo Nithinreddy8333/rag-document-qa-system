@@ -4,8 +4,13 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green.svg)](https://openai.com)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20DB-purple.svg)](https://www.trychroma.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B.svg)](https://rag-docs-chat.streamlit.app)
 
 A powerful Retrieval-Augmented Generation (RAG) system that lets you chat with your documents using AI. Upload PDFs, DOCX, or text files and get intelligent answers with source citations.
+
+## 🔗 Live Demo
+
+**👉 [https://rag-docs-chat.streamlit.app](https://rag-docs-chat.streamlit.app)**
 
 ## ✨ Features
 
@@ -33,9 +38,9 @@ A powerful Retrieval-Augmented Generation (RAG) system that lets you chat with y
 
 ### Option 1: Use the Live App
 
-Visit the live deployment (no installation needed):
+Visit the live deployment - no installation needed!
 
-👉 **[Launch App](https://rag-document-qa-system.streamlit.app)**
+**👉 [https://rag-docs-chat.streamlit.app](https://rag-docs-chat.streamlit.app)**
 
 ### Option 2: Run Locally
 
